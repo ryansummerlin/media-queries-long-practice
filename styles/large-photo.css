@@ -18,4 +18,12 @@ a.backButton {
     text-decoration: none;
 }
 
-/* Your code here */
+@media print {
+    .notPrinted {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+    }
+}
